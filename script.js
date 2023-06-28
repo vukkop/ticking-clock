@@ -10,8 +10,6 @@ function getSecondsSinceStartOfDay() {
 
 setInterval( function() {
   var time = getSecondsSinceStartOfDay();
-  console.log(time);
-
   /*
 
   (time % x) /y *z + 180
